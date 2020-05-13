@@ -3,15 +3,14 @@
 # Kudos to https://www.youtube.com/watch?v=T8DLwACpe3o
 
 
-import time
 import socket
+import time
+
 import RobloxInterface
 
 interface = RobloxInterface.RobloxInterface()
-time.sleep(5)
-interface.press("space")
-time.sleep(5)
-interface.release("space")
+
+
 # Functions
 def open_socket(HOST, PORT, PASS, IDENT, CHANNEL):
     print("signing into account " + IDENT)
